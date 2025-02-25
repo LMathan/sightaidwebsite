@@ -2,10 +2,15 @@
     width: 100vw;
     height: 100vh;
 }
+.main2 img{
+    width: 200px;
+    height: 100px;
+}
 .main1 {
     display: block;
 }
 .main2 {
+    text-align: center;
     display: none;
 }
 
@@ -15,6 +20,7 @@
         display: none;
     }
     .main2 {
+        
         display: block;
     }
 }
