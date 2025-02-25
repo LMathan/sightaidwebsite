@@ -2,3 +2,19 @@
     width: 100vw;
     height: 100vh;
 }
+.main1 {
+    display: block;
+}
+.main2 {
+    display: none;
+}
+
+/* Mobile View (Max width: 768px) */
+@media screen and (max-width: 768px) {
+    .main1 {
+        display: none;
+    }
+    .main2 {
+        display: block;
+    }
+}
